@@ -113,7 +113,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -158,7 +158,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/11/04/HEXO%E5%AD%B8%E7%BF%92/" class="post-title-link" itemprop="url">HEXO學習</a>
+          <a href="/2024/11/04/HEXO%E5%AD%B8%E7%BF%92/" class="post-title-link" itemprop="url">HEXO-learning</a>
         </h2>
 
         <div class="post-meta-container">
@@ -176,7 +176,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2024-11-05 08:37:02" itemprop="dateModified" datetime="2024-11-05T08:37:02+08:00">2024-11-05</time>
+      <time title="修改時間：2024-11-05 14:30:08" itemprop="dateModified" datetime="2024-11-05T14:30:08+08:00">2024-11-05</time>
     </span>
 
   
@@ -189,104 +189,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="HEXO學習"><a href="#HEXO學習" class="headerlink" title="HEXO學習"></a>HEXO學習</h1><p>如何安裝Git Bash?<br>發現了很好用的VS code<br>本來發第一篇文都失敗，原來推送到Github也有時間差，過一陣子看網站就出現更新了<br>2024-11-04<br>如何更換主題(theme) <a href=""></a><br>更換後測試發現 WARN No layout: index.html<br>原來是<br>主題的檔名錯了，”hexo-theme-next-master” 打成了”hexo-theme-next”<br>改回來後在本地端就可正常的顯示了<br>2024-11-05<br>不知道為何我的網站還是沒有更新成 Next 的主題</p>
+          <h1 id="HEXO學習日誌"><a href="#HEXO學習日誌" class="headerlink" title="HEXO學習日誌"></a>HEXO學習日誌</h1><p>從 GOOGLE BLOGGER 到 WORDPRESS 到…到 OBSIDIAN+MIXA 到 現在 OBSIDIAN+HEXO</p>
+<p>2024-11-04<br>如何安裝Git Bash?<br>發現了很好用的VS code<br>本來發第一篇文都失敗，原來推送到Github也有時間差，過一陣子看網站就出現更新了<br>如何更換主題(theme)<br>更換後測試發現 WARN No layout: index.html<br>原來是主題的檔名錯了，”hexo-theme-next-master” 打成了”hexo-theme-next”<br>改回來後在本地端就可正常的顯示了</p>
+<p>2024-11-05<br>不知道為何我的網站還是沒有更新成 Next 的主題<br>原來是忘記先鍵入”生成(generate)” 再 Deploy，重新做一次後就可以正常顯示了<br>發現幾個還有在用 HEXO 並持續更新的部落格(好像以中文為主)<br><a target="_blank" rel="noopener" href="https://blog.marsen.me/">Marsen’s Blog</a><br><a target="_blank" rel="noopener" href="https://blog.kyomind.tw/">Code and Me(Kyomind)</a><br><a target="_blank" rel="noopener" href="https://israynotarray.com/">是 Ray 不是 Array</a></p>
 <h2 id="HEXO-從零開始"><a href="#HEXO-從零開始" class="headerlink" title="HEXO 從零開始"></a>HEXO 從零開始</h2><h3 id="git-bash-基本指令-from-教學-git-4-bash基本指令操作-討論區-NVDA-台灣"><a href="#git-bash-基本指令-from-教學-git-4-bash基本指令操作-討論區-NVDA-台灣" class="headerlink" title="git bash 基本指令 from [教學] git-4 bash基本指令操作 - 討論區  |   NVDA 台灣"></a>git bash 基本指令 from <a target="_blank" rel="noopener" href="https://www.nvda.org.tw/discussion/ui=100200tm=1952161285">[教學] git-4 bash基本指令操作 - 討論區  |   NVDA 台灣</a></h3><p>在 git bash 中，路徑都是以 <code>/</code> 正斜線來隔開，如果是 D 槽則是以 <code>/d</code> 來表示，</p>
 <p>這稱為絕對路徑，就是從最前面的根目錄開始寫起，<code>/</code> 就是代表根目錄。</p>
 <p>第二行，也就是游標所在行，前面有一個錢號，這是 git bash 的指令列提示符號，在輸入指令時不需輸入該符號喔。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">查看當前路徑，看看到底家目錄在哪裡</span><br><span class="line"> $ pwd                                                                           </span><br><span class="line"> /c/Users/Administrator                                                          </span><br><span class="line"></span><br><span class="line">切換到 D 槽</span><br><span class="line"> $ cd /d</span><br><span class="line">由此可知，切換成功是沒有訊息的</span><br><span class="line"></span><br><span class="line">那切換到一個不存在的資料夾看看</span><br><span class="line"> $ cd ooqq                                                                       </span><br><span class="line"> bash: cd: ooqq: No such file or directory                                       </span><br><span class="line"></span><br><span class="line">既然沒有，那我們就來建一個  </span><br><span class="line"> $ mkdir ooqq                                                                    </span><br><span class="line">沒消息就是好消息，建立成功                                                                                 </span><br><span class="line"></span><br><span class="line">來看看檔案與資料夾列表有沒有這個資料夾了 </span><br><span class="line"> $ ls                                                                            </span><br><span class="line"> 01/  03/  05/  07/  09/  11/  13/  15/        log    t.html                     </span><br><span class="line"> 02/  04/  06/  08/  10/  12/  14/  child.mp3  ooqq/   </span><br></pre></td></tr></table></figure>
-
-
-
-
-<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000042111533">javascript - Hexo 搭建与部署指南 - 个人文章 - SegmentFault 思否</a><br><a target="_blank" rel="noopener" href="https://alecthw.github.io/books/markdown-simple-world/4.html">Markdown + Gitbook · GitBook</a><br>大家都推薦的<a target="_blank" rel="noopener" href="https://github.com/next-theme">NexT</a><br><a target="_blank" rel="noopener" href="https://sagi-rastar.github.io/2023/11/10/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BD%BF%E7%94%A8obsidian%E5%8A%A0hexo%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/">关于我使用obsidian加hexo部署个人博客的过程 - SagiRastar’s Blog</a><br><a target="_blank" rel="noopener" href="https://israynotarray.com/hexo/20190411/932826160/">架設 Hexo+GitHub | 是 Ray 不是 Array</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://777tycoon.github.io/2024/10/10/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="少亨">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="大亨投資日記">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 大亨投資日記">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/10/10/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">發表於</span>
-
-      <time title="創建時間：2024-10-10 18:27:54" itemprop="dateCreated datePublished" datetime="2024-10-10T18:27:54+08:00">2024-10-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2024-11-04 09:24:39" itemprop="dateModified" datetime="2024-11-04T09:24:39+08:00">2024-11-04</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="參考連結"><a href="#參考連結" class="headerlink" title="參考連結"></a>參考連結</h2><p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000042111533">javascript - Hexo 搭建与部署指南 - 个人文章 - SegmentFault 思否</a><br><a target="_blank" rel="noopener" href="https://www.lixl.cn/2019/092856736.html#toc-heading-3">基于Hexo的matery主题搭建博客并深度优化 | 悟尘记 - 李小龙的博客网站</a><br><a target="_blank" rel="noopener" href="https://alecthw.github.io/books/markdown-simple-world/4.html">Markdown + Gitbook · GitBook</a><br>大家都推薦的<a target="_blank" rel="noopener" href="https://github.com/next-theme">NexT</a><br><a target="_blank" rel="noopener" href="https://sagi-rastar.github.io/2023/11/10/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BD%BF%E7%94%A8obsidian%E5%8A%A0hexo%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/">关于我使用obsidian加hexo部署个人博客的过程 - SagiRastar’s Blog</a><br><a target="_blank" rel="noopener" href="https://israynotarray.com/hexo/20190411/932826160/">架設 Hexo+GitHub | 是 Ray 不是 Array</a></p>
 
       
     </div>
@@ -331,7 +240,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/10/09/%E6%88%91%E6%98%AF%E5%A4%A7%E4%BA%A8/" class="post-title-link" itemprop="url">我是大亨</a>
+          <a href="/2024/10/09/%E6%88%91%E6%98%AF%E5%A4%A7%E4%BA%A8/" class="post-title-link" itemprop="url">About-me</a>
         </h2>
 
         <div class="post-meta-container">
@@ -349,7 +258,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2024-11-04 09:26:01" itemprop="dateModified" datetime="2024-11-04T09:26:01+08:00">2024-11-04</time>
+      <time title="修改時間：2024-11-05 13:42:53" itemprop="dateModified" datetime="2024-11-05T13:42:53+08:00">2024-11-05</time>
     </span>
 
   
