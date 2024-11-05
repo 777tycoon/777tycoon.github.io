@@ -168,9 +168,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">發表於</span>
-      
 
-      <time title="創建時間：2024-11-04 09:39:03 / 修改時間：14:43:50" itemprop="dateCreated datePublished" datetime="2024-11-04T09:39:03+08:00">2024-11-04</time>
+      <time title="創建時間：2024-11-04 09:39:03" itemprop="dateCreated datePublished" datetime="2024-11-04T09:39:03+08:00">2024-11-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新於</span>
+      <time title="修改時間：2024-11-05 08:37:02" itemprop="dateModified" datetime="2024-11-05T08:37:02+08:00">2024-11-05</time>
     </span>
 
   
@@ -183,9 +189,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>HEXO學習</p>
-<p>如何安裝Git Bash?<br>發現了很好用的VS code<br>本來發第一篇文都失敗，原來推送到Github也有時間差，過一陣子看網站就出現更新了<br>如何更換主題(theme) <a href=""></a><br>更換後測試發現 WARN No layout: index.html<br>原來是<br>“hexo-theme-next” </p>
-<p>HEXO 基本指令</p>
+          <h1 id="HEXO學習"><a href="#HEXO學習" class="headerlink" title="HEXO學習"></a>HEXO學習</h1><p>如何安裝Git Bash?<br>發現了很好用的VS code<br>本來發第一篇文都失敗，原來推送到Github也有時間差，過一陣子看網站就出現更新了<br>2024-11-04<br>如何更換主題(theme) <a href=""></a><br>更換後測試發現 WARN No layout: index.html<br>原來是<br>主題的檔名錯了，”hexo-theme-next-master” 打成了”hexo-theme-next”<br>改回來後在本地端就可正常的顯示了<br>2024-11-05<br>不知道為何我的網站還是沒有更新成 Next 的主題</p>
+<h2 id="HEXO-從零開始"><a href="#HEXO-從零開始" class="headerlink" title="HEXO 從零開始"></a>HEXO 從零開始</h2><h3 id="git-bash-基本指令-from-教學-git-4-bash基本指令操作-討論區-NVDA-台灣"><a href="#git-bash-基本指令-from-教學-git-4-bash基本指令操作-討論區-NVDA-台灣" class="headerlink" title="git bash 基本指令 from [教學] git-4 bash基本指令操作 - 討論區  |   NVDA 台灣"></a>git bash 基本指令 from <a target="_blank" rel="noopener" href="https://www.nvda.org.tw/discussion/ui=100200tm=1952161285">[教學] git-4 bash基本指令操作 - 討論區  |   NVDA 台灣</a></h3><p>在 git bash 中，路徑都是以 <code>/</code> 正斜線來隔開，如果是 D 槽則是以 <code>/d</code> 來表示，</p>
+<p>這稱為絕對路徑，就是從最前面的根目錄開始寫起，<code>/</code> 就是代表根目錄。</p>
+<p>第二行，也就是游標所在行，前面有一個錢號，這是 git bash 的指令列提示符號，在輸入指令時不需輸入該符號喔。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">查看當前路徑，看看到底家目錄在哪裡</span><br><span class="line"> $ pwd                                                                           </span><br><span class="line"> /c/Users/Administrator                                                          </span><br><span class="line"></span><br><span class="line">切換到 D 槽</span><br><span class="line"> $ cd /d</span><br><span class="line">由此可知，切換成功是沒有訊息的</span><br><span class="line"></span><br><span class="line">那切換到一個不存在的資料夾看看</span><br><span class="line"> $ cd ooqq                                                                       </span><br><span class="line"> bash: cd: ooqq: No such file or directory                                       </span><br><span class="line"></span><br><span class="line">既然沒有，那我們就來建一個  </span><br><span class="line"> $ mkdir ooqq                                                                    </span><br><span class="line">沒消息就是好消息，建立成功                                                                                 </span><br><span class="line"></span><br><span class="line">來看看檔案與資料夾列表有沒有這個資料夾了 </span><br><span class="line"> $ ls                                                                            </span><br><span class="line"> 01/  03/  05/  07/  09/  11/  13/  15/        log    t.html                     </span><br><span class="line"> 02/  04/  06/  08/  10/  12/  14/  child.mp3  ooqq/   </span><br></pre></td></tr></table></figure>
+
+
+
+
+<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000042111533">javascript - Hexo 搭建与部署指南 - 个人文章 - SegmentFault 思否</a><br><a target="_blank" rel="noopener" href="https://alecthw.github.io/books/markdown-simple-world/4.html">Markdown + Gitbook · GitBook</a><br>大家都推薦的<a target="_blank" rel="noopener" href="https://github.com/next-theme">NexT</a><br><a target="_blank" rel="noopener" href="https://sagi-rastar.github.io/2023/11/10/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BD%BF%E7%94%A8obsidian%E5%8A%A0hexo%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/">关于我使用obsidian加hexo部署个人博客的过程 - SagiRastar’s Blog</a><br><a target="_blank" rel="noopener" href="https://israynotarray.com/hexo/20190411/932826160/">架設 Hexo+GitHub | 是 Ray 不是 Array</a></p>
 
       
     </div>
