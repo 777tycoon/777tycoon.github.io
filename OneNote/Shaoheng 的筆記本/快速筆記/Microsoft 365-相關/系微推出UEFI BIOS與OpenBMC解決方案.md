@@ -1,0 +1,5 @@
+剪輯自: [https://tw.news.yahoo.com/%E7%B3%BB%E5%BE%AE%E6%8E%A8%E5%87%BAuefi-bios%E8%88%87openbmc%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-200359481.html](https://tw.news.yahoo.com/%E7%B3%BB%E5%BE%AE%E6%8E%A8%E5%87%BAuefi-bios%E8%88%87openbmc%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-200359481.html)  
+【記者柯安聰台北報導】系微公司（6231）25日宣布其旗下可客製化的高階InsydeH2O UEFI BIOS及Supervyse OpenBMC系統管理韌體解決方案已全面支援NVIDIA Grace CPU和NVIDIA GH200 Grace Hopper超級晶片架構設計。  
+￼NVIDIA Grace CPU超級晶片正是專為滿足最具挑戰性的人工智慧(AI)、高效能運算(HPC)、雲服務和超大規模應用而打造設計，其搭載144個Arm Neoverse V2 CPU核心連接LPDDR5X記憶體，能支援高達每秒1 TB頻寬，提供卓越性能、領先業界的能源使用效率和高效記憶體頻寬連線能力。  
+￼為了滿足當今最複雜、要求最嚴苛的生成式AI和加速HPC工作負載需求，NVIDIA推出的全新Grace Hopper超級晶片，透過其NVLink-C2C晶片互連技術，將NVIDIA的Grace CPU和Hopper GPU結合在一起，提供高達900GB/秒的頻寬傳輸性能，比傳統加速系統中標準PCIe Gen5通道的頻寬高出7倍以上。  
+￼系微表示，透過與NVIDIA緊密的合作關係，提前取得Grace和Grace Hopper 超級晶片的硬體，在擁有超前部署的優勢下，開發出安全、可客製且功能豐富的InsydeH2O UEFI BIOS和基於OpenBMC的Supervyse OPF BMC韌體解決方案。（自立電子報2023/7/25）
