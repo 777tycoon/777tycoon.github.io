@@ -1,2 +1,0 @@
-剪輯自: [https://www.gigabyte.com/tw/Article/setting-the-record-straight-what-is-hpc-a-tech-guide-by-gigabyte](https://www.gigabyte.com/tw/Article/setting-the-record-straight-what-is-hpc-a-tech-guide-by-gigabyte)  
-HPC是high performance computing（高效能運算）的簡稱，泛指各種潛力無窮的先進運算方式，可處理更多資訊、執行更複雜的運算，效能與速度超過一般個人電腦。因此，高效能運算常被用來當作「超級電腦」的代名詞。目前，全世界有許多知名高效能運算系統，已突破一千兆每秒浮點運算次數(petaFLOPS)，甚至達到一百萬兆浮點運算次數(exaFLOPS)的超級電腦等級，登上Top 500 超級電腦排行榜。值得高興的是，一般企業（或任何組織）也有辦法使用HPC，甚至能建造自己的高效能運算系統，駕馭超級電腦等級的運算潛能。

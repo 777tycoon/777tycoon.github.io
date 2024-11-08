@@ -1,1 +1,0 @@
-![Exported image](Exported%20image%2020241106112624-0.png)
