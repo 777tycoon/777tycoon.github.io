@@ -1,6 +1,11 @@
 ---
+aliases:
+  - "#IMDb"
+related note: 
 tags:
-  - Keep/Label/R參考、想法、心得、筆記、紀錄
+  - SaaS
+  - IMDb
+  - 電影
+file type: Tag Page
 ---
-
-https://www.imdb.com/title/tt2222042/
+#website [IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows](https://www.imdb.com/)
