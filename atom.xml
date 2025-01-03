@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>大亨投資日記</title>
+  
+  <subtitle>工程師的斜槓旅程</subtitle>
+  <link href="https://777tycoon.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://777tycoon.github.io/"/>
+  <updated>2025-01-03T07:56:28.213Z</updated>
+  <id>https://777tycoon.github.io/</id>
+  
+  <author>
+    <name>少亨</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>拾貝投資讀書會：一起探索財務自由的道路</title>
+    <link href="https://777tycoon.github.io/2025/01/03/FIRE-study-gruop/"/>
+    <id>https://777tycoon.github.io/2025/01/03/FIRE-study-gruop/</id>
+    <published>2025-01-03T05:36:20.000Z</published>
+    <updated>2025-01-03T07:56:28.213Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="拾貝投資讀書會：一起探索財務自由的道路"><a href="#拾貝投資讀書會：一起探索財務自由的道路" class="headerlink" title="拾貝投資讀書會：一起探索財務自由的道路"></a><strong>拾貝投資讀書會：一起探索財務自由的道路</strong></h2><h3 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h3><p>原本希望是十倍成長或是十倍速，但後來我發現欲速則不達，所以選擇要慢一點，才能夠彎腰撿到寶貝，所以稱為拾貝。</p><p>歡迎加入我們的投資讀書會！這裡是一個為熱愛學習與成長的朋友打造的交流平台，透過分享與討論，攜手提升投資知識與技能，共同實現財務目標。</p><h3 id="我們的宗旨"><a href="#我們的宗旨" class="headerlink" title="我們的宗旨"></a><strong>我們的宗旨</strong></h3><ol><li><strong>學習成長</strong>：發掘投資盲點，學習專業知識，拓展市場觀點。</li><li><strong>創造機會</strong>：探索新商機與創意，發現財務自由的可能性。</li><li><strong>互相支持</strong>：建立互助網絡，分享資源，解決挑戰。</li></ol><h3 id="運作模式"><a href="#運作模式" class="headerlink" title="運作模式"></a><strong>運作模式</strong></h3><ul><li><strong>線上交流</strong>：利用 Line 群組與 Google Meet，隨時隨地參與討論與學習。</li><li><strong>每月主題</strong>：由成員輪值領讀，探討熱門投資話題或經典書籍。</li><li><strong>實體聚會</strong>：每季一次，面對面深入交流</li></ul><h3 id="我們適合誰？"><a href="#我們適合誰？" class="headerlink" title="我們適合誰？"></a><strong>我們適合誰？</strong></h3><ul><li>熱衷於主動投資，想提升權益數的你。</li><li>對股票、期貨或產業趨勢感興趣，希望學習新知識的你。</li><li>願意分享經驗，並一起面對投資挑戰的你。</li></ul><h3 id="為什麼加入我們？"><a href="#為什麼加入我們？" class="headerlink" title="為什麼加入我們？"></a><strong>為什麼加入我們？</strong></h3><p>這不僅僅是一個讀書會，更是一個支持彼此實現夢想的團體。一起激盪思維，讓每一次討論成為改變未來的契機！</p><p><strong>立即行動！</strong><br>如果你對我們的讀書會感興趣，歡迎聯絡我們或直接留言加入！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;拾貝投資讀書會：一起探索財務自由的道路&quot;&gt;&lt;a href=&quot;#拾貝投資讀書會：一起探索財務自由的道路&quot; class=&quot;headerlink&quot; title=&quot;拾貝投資讀書會：一起探索財務自由的道路&quot;&gt;&lt;/a&gt;&lt;strong&gt;拾貝投資讀書會：一起探索財務自由的道路&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO-NexT如何做出選單功能</title>
+    <link href="https://777tycoon.github.io/2024/11/25/HEXO-NexT-how-to-menu/"/>
+    <id>https://777tycoon.github.io/2024/11/25/HEXO-NexT-how-to-menu/</id>
+    <published>2024-11-25T02:16:37.000Z</published>
+    <updated>2025-01-03T04:01:17.241Z</updated>
+    
+    <content type="html"><![CDATA[<p>在 <strong>Hexo</strong> 中使用 <strong>NexT 佈景主題</strong> 設置 <strong>Menu（選單）</strong> 可以讓你的網站更具結構性。以下是完整的設置步驟：</p><hr><h3 id="🛠-步驟-1-打開-NexT-配置文件"><a href="#🛠-步驟-1-打開-NexT-配置文件" class="headerlink" title="🛠 步驟 1: 打開 NexT 配置文件"></a>🛠 <strong>步驟 1: 打開 NexT 配置文件</strong></h3><ol><li>前往你的 <strong>Hexo 根目錄</strong>。</li><li>打開 <strong>NexT 主題配置文件</strong>，通常位於：</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yamlthemes/next/_config.yml</span><br></pre></td></tr></table></figure><hr><h3 id="📝-步驟-2-編輯-Menu-設定"><a href="#📝-步驟-2-編輯-Menu-設定" class="headerlink" title="📝 步驟 2: 編輯 Menu 設定"></a>📝 <strong>步驟 2: 編輯 Menu 設定</strong></h3><p>找到配置文件中的 <strong>menu</strong> 區塊，通常看起來像這樣：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">contact:</span> <span class="string">/contact/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-envelope</span></span><br></pre></td></tr></table></figure><hr><h3 id="🧩-Menu-配置詳解"><a href="#🧩-Menu-配置詳解" class="headerlink" title="🧩 Menu 配置詳解"></a>🧩 <strong>Menu 配置詳解</strong></h3><p>每一行都有三個部分：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu_item:</span> <span class="string">路徑</span> <span class="string">||</span> <span class="string">圖標</span></span><br></pre></td></tr></table></figure><ul><li>**<code>menu_item</code>**：選單項目的名稱（例如 <code>home</code>, <code>about</code> 等）。</li><li>**<code>路徑</code>**：指向的 URL 路徑（例如 <code>/about/</code>）。<ul><li>根目錄頁面使用 <code>/</code>。</li><li>其他頁面使用 <code>/page-name/</code>。</li></ul></li><li>**<code>圖標</code>**：使用 <strong>Font Awesome</strong> 圖標（可選）。<ul><li>例如：<code>fa fa-home</code> 代表首頁圖標。</li></ul></li></ul><hr><h3 id="🧩-新增自定義-Menu-項目"><a href="#🧩-新增自定義-Menu-項目" class="headerlink" title="🧩 新增自定義 Menu 項目"></a>🧩 <strong>新增自定義 Menu 項目</strong></h3><p>假設你要添加一個 <strong>「作品集」</strong> 選單項目：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="attr">portfolio:</span> <span class="string">/portfolio/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-briefcase</span>   <span class="comment"># 新增作品集</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-th</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br></pre></td></tr></table></figure><hr><h3 id="🌐-多層選單（子選單）"><a href="#🌐-多層選單（子選單）" class="headerlink" title="🌐 多層選單（子選單）"></a>🌐 <strong>多層選單（子選單）</strong></h3><p>NexT 也支援子選單，可以這樣設置：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br><span class="line">  <span class="attr">more:</span></span><br><span class="line">    <span class="attr">sublist:</span></span><br><span class="line">      <span class="attr">projects:</span> <span class="string">/projects/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-code</span></span><br><span class="line">      <span class="attr">contact:</span> <span class="string">/contact/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-envelope</span></span><br></pre></td></tr></table></figure><hr><h3 id="🔄-步驟-3-重新生成並部署"><a href="#🔄-步驟-3-重新生成並部署" class="headerlink" title="🔄 步驟 3: 重新生成並部署"></a>🔄 <strong>步驟 3: 重新生成並部署</strong></h3><p>設置完成後，重新生成並部署你的網站：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><hr><h3 id="🚀-完成後檢查"><a href="#🚀-完成後檢查" class="headerlink" title="🚀 完成後檢查"></a>🚀 <strong>完成後檢查</strong></h3><p>開啟你的網站，確認選單是否按照設置顯示。如果有問題，可以檢查配置文件的語法或重啟 Hexo 本地伺服器：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><hr><h3 id="📌-小提示"><a href="#📌-小提示" class="headerlink" title="📌 小提示"></a>📌 <strong>小提示</strong></h3><ul><li><strong>Font Awesome 圖標</strong>：可以在 <span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20vaWNvbnM=">Font Awesome 網站<i class="fa fa-external-link-alt"></i></span> 查找更多圖標。</li><li><strong>順序調整</strong>：修改配置文件中選單項目的順序會影響它們在網站上的排列順序。</li></ul><p>改完發現還沒出來，原來是預設的 <code>config.yml</code> 設定中，<code>menu</code> 部分的項目都被註解（<code>#</code>）掉了，這就是為什麼 <strong>Menu bar</strong> 沒有顯示的原因。<strong>取消註解</strong>（去掉 <code>#</code> 符號）讓選單項目就顯示出來了。</p><hr><h3 id="🛠️-修正方法：取消註解"><a href="#🛠️-修正方法：取消註解" class="headerlink" title="🛠️ 修正方法：取消註解"></a>🛠️ <strong>修正方法：取消註解</strong></h3><p>將以下內容中的 <code>#</code> 刪除，保持每行的格式正確，這樣它們才會在網站中顯示：</p><p>yaml</p><p>複製程式碼</p><p><code>menu:   home: / || fa fa-home   about: /about/ || fa fa-user   tags: /tags/ || fa fa-tags   categories: /categories/ || fa fa-th   archives: /archives/ || fa fa-archive   # 如果不需要某項，可以保留註解或刪除該行</code></p><hr><h3 id="🔍-檢查格式："><a href="#🔍-檢查格式：" class="headerlink" title="🔍 檢查格式："></a>🔍 <strong>檢查格式：</strong></h3><ol><li><strong>縮排</strong>：保持 <code>menu:</code> 下的每個項目都有兩個空格縮排。</li><li><strong>連結設定</strong>：<ul><li><code>home: /</code> 表示首頁連結。</li><li><code>/about/</code> 是指向你的「關於」頁面。請確認你的 Hexo 中是否有這些頁面（例如 <code>source/about/index.md</code>）。</li></ul></li><li><strong>圖示設定</strong>：<code>|| fa fa-home</code> 使用的是 <strong>Font Awesome</strong> 圖標。如果你沒有引入 Font Awesome，也可以移除 <code>||</code> 後的圖標部分。</li></ol><hr><h3 id="🚀-生成與部署："><a href="#🚀-生成與部署：" class="headerlink" title="🚀 生成與部署："></a>🚀 <strong>生成與部署：</strong></h3><p>更改完 <code>config.yml</code> 後，記得重新生成並部署網站</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在 &lt;strong&gt;Hexo&lt;/strong&gt; 中使用 &lt;strong&gt;NexT 佈景主題&lt;/strong&gt; 設置 &lt;strong&gt;Menu（選單）&lt;/strong&gt; 可以讓你的網站更具結構性。以下是完整的設置步驟：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;🛠-步驟-1-打開-</summary>
+      
+    
+    
+    
+    <category term="hexo教學" scheme="https://777tycoon.github.io/categories/hexo%E6%95%99%E5%AD%B8/"/>
+    
+    
+    <category term="hexo" scheme="https://777tycoon.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>關於本部落格</title>
+    <link href="https://777tycoon.github.io/2024/11/07/blog-log/"/>
+    <id>https://777tycoon.github.io/2024/11/07/blog-log/</id>
+    <published>2024-11-07T09:13:03.000Z</published>
+    <updated>2025-01-03T02:24:46.582Z</updated>
+    
+    <content type="html"><![CDATA[<p>這是一個以 <a href="">Hexo</a> 為基礎的部落格網站，佈景主題為 NexT，目前部署在 Vercel上</p><h2 id="更新日誌"><a href="#更新日誌" class="headerlink" title="更新日誌"></a>更新日誌</h2><ul><li>2024-11-08 部署網站到 Vercel</li><li>2024-11-05 更換佈景主題為 NexT</li><li>2024-10-09 部落格上線</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;這是一個以 &lt;a href=&quot;&quot;&gt;Hexo&lt;/a&gt; 為基礎的部落格網站，佈景主題為 NexT，目前部署在 Vercel上&lt;/p&gt;
+&lt;h2 id=&quot;更新日誌&quot;&gt;&lt;a href=&quot;#更新日誌&quot; class=&quot;headerlink&quot; title=&quot;更新日誌&quot;&gt;&lt;/a&gt;更新日誌&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="blog" scheme="https://777tycoon.github.io/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何建立強大的心理素質</title>
+    <link href="https://777tycoon.github.io/2024/11/07/book-review-resilience-musles/"/>
+    <id>https://777tycoon.github.io/2024/11/07/book-review-resilience-musles/</id>
+    <published>2024-11-07T07:02:03.000Z</published>
+    <updated>2024-11-25T07:39:40.619Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/097/50/0010975058.jpg&v=65606d88k&w=348&h=348"></p><h2 id="抗壓韌性-世界菁英的成功秘密-人人都可鍛鍊的強勢復原力-英文書名-Resilience-muscles"><a href="#抗壓韌性-世界菁英的成功秘密-人人都可鍛鍊的強勢復原力-英文書名-Resilience-muscles" class="headerlink" title="抗壓韌性 : 世界菁英的成功秘密, 人人都可鍛鍊的強勢復原力 (英文書名 Resilience muscles )"></a>抗壓韌性 : 世界菁英的成功秘密, 人人都可鍛鍊的強勢復原力 (英文書名 Resilience muscles )</h2><p>作者曾任職於寶僑日本分公司，經過外商的洗禮後，自有一套體悟，原本也是做得不錯，但後來也可能有一定的倦怠感，轉行成為正向心理的推廣者，但是本書的抗壓韌性並不等同於正向心理，一昧的把負面影響都丟給正向思考是無法解決問題的</p><p>同場加映: 劉軒的訪談</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/097/50/0010975058.jpg&amp;v=65606d88k&amp;w=348&amp;h=348&quot;&gt;&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="Book-review" scheme="https://777tycoon.github.io/tags/Book-review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO學習日誌</title>
+    <link href="https://777tycoon.github.io/2024/11/04/HEXO-Learing-journal/"/>
+    <id>https://777tycoon.github.io/2024/11/04/HEXO-Learing-journal/</id>
+    <published>2024-11-04T01:39:03.000Z</published>
+    <updated>2025-01-03T08:36:34.262Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HEXO學習日誌"><a href="#HEXO學習日誌" class="headerlink" title="HEXO學習日誌"></a>HEXO學習日誌</h1><p>從 GOOGLE BLOGGER 到 WORDPRESS 到…N…到 OBSIDIAN+MIXA 到 現在 OBSIDIAN+HEXO</p><p>2024-11-04</p><ul><li>如何安裝Git Bash?</li><li>發現了很好用的VS code<br>本來發第一篇文都失敗，原來推送到Github也有時間差，過一陣子看網站就出現更新了</li><li>如何更換主題(theme)<br>更換後測試發現 WARN No layout: index.html<br>原來是主題的檔名錯了，”hexo-theme-next-master” 打成了”hexo-theme-next”<br>改回來後在本地端就可正常的顯示了</li></ul><p>2024-11-05</p><ul><li><p>不知道為何我的網站還是沒有更新成 Next 的主題</p></li><li><p>原來是忘記先鍵入”生成(generate)” 再 Deploy，重新做一次後就可以正常顯示新主題了</p></li><li><p>發現幾個還有在用 HEXO 並持續更新的部落格(用戶好像多以中文為主)<br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLm1hcnNlbi5tZS8=">Marsen’s Blog<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmt5b21pbmQudHcv">Code and Me(Kyomind)<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9pc3JheW5vdGFycmF5LmNvbS8=">是 Ray 不是 Array<i class="fa fa-external-link-alt"></i></span></p></li><li><p>[[HEXO-NexT-how-to-menu|HEXO-NexT如何做出選單功能]]</p></li><li><p>如何做出搜尋功能</p></li></ul><p>2024-11-07<br>今天早上希望改從 Cloudflare 發布網站，參考:<span class="exturl" data-url="aHR0cHM6Ly93d3cuamdkdWhhby54eXovMjAyMy8wOC8wNi8lRTYlOEElOEFoZXhvJUU1JThEJTlBJUU1JUFFJUEyJUU5JTgzJUE4JUU3JUJEJUIyJUU1JTg4JUIwQ2xvdWRmbGFyZS1QYWdlcy8=">把hexo博客部署到Cloudflare Pages - 阿加尔塔之风<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L211eHVlbi9hcnRpY2xlL2RldGFpbHMvMTQxNDg0ODQ4">【Hexo】使用cloudflare pages自动化部署hexo_cloudfare page-CSDN博客<i class="fa fa-external-link-alt"></i></span></p><ul><li><span class="exturl" data-url="aHR0cHM6Ly9kYXNoLmNsb3VkZmxhcmUuY29tL2JkODk2NTA0NGVmNjdiOWU3NDVjNGNhMWQ0MDgxNjdmL3BhZ2VzL25ldy9wcm92aWRlci9naXRodWI=">Cloudflare | Web Performance &amp; Security<i class="fa fa-external-link-alt"></i></span></li><li>弄了好久，output檔一直找不到 Public 資料夾，於是更改output檔名為 2024 (我以為output的資料夾是2024)，終於成功部署網站到 Cloudflare了，但喜悅一下落空，因為不知道為什麼還是不能看到，後來我又改了一次重點就是要在找到package.json檔，好像也是要買網域名才能用，有點像白忙一場，不過還是蠻有成就感</li></ul><p>2024-11-08<br>再試了一下部署網站到 Cloudflare ，這時候我有發現我的本地端並沒有正確的指到我的 branch，再修正後重新布置卻還是失敗，忽然想到還有別家服務(詳[比較文](<span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vY3ViZXl1L3AvMTc0NTI0NTYuaHRtbA==">各大免费托管平台体验有感 - cubeyu - 博客园<i class="fa fa-external-link-alt"></i></span>))，轉而布置到 <span class="exturl" data-url="aHR0cHM6Ly92ZXJjZWwuY29tLw==">Vercel<i class="fa fa-external-link-alt"></i></span> 上，沒幾下功夫就好了 <span class="exturl" data-url="aHR0cHM6Ly83Nzd0eWNvb24udmVyY2VsLmFwcC8=">大亨投資日記<i class="fa fa-external-link-alt"></i></span></p><h2 id="HEXO-從零開始"><a href="#HEXO-從零開始" class="headerlink" title="HEXO 從零開始"></a>HEXO 從零開始</h2><p>先是下載 git bash 軟體，然後就可以操作啦</p><p>git bash 基本指令 參考: <span class="exturl" data-url="aHR0cHM6Ly93d3cubnZkYS5vcmcudHcvZGlzY3Vzc2lvbi91aT0xMDAyMDB0bT0xOTUyMTYxMjg1">[教學] git-4 bash基本指令操作 - 討論區  |   NVDA 台灣<i class="fa fa-external-link-alt"></i></span><br>在 git bash 中，路徑都是以 <code>/</code> 正斜線來隔開，如果是 D 槽則是以 <code>/d</code> 來表示，</p><p>這稱為絕對路徑，就是從最前面的根目錄開始寫起，<code>/</code> 就是代表根目錄。</p><p>cd 資料夾 就可以切換到你要的資料夾了，根據經驗我直接把部落格資料夾 copy+paste 到我想要的硬碟槽可以直接使用</p><p>第二行，也就是游標所在行，前面有一個錢號，這是 git bash 的指令列提示符號，在輸入指令時不需輸入該符號喔。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /d #去到指定的硬碟</span><br><span class="line">cd &quot;資料夾名稱XX&quot;  #去到資料夾</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="參考連結"><a href="#參考連結" class="headerlink" title="參考連結"></a>參考連結</h2><ul><li><span class="exturl" data-url="aHR0cHM6Ly9zZWdtZW50ZmF1bHQuY29tL2EvMTE5MDAwMDA0MjExMTUzMw==">javascript - Hexo 搭建与部署指南 - 个人文章 - SegmentFault 思否<i class="fa fa-external-link-alt"></i></span></li><li><span class="exturl" data-url="aHR0cHM6Ly93d3cubGl4bC5jbi8yMDE5LzA5Mjg1NjczNi5odG1sI3RvYy1oZWFkaW5nLTM=">基于Hexo的matery主题搭建博客并深度优化 | 悟尘记 - 李小龙的博客网站<i class="fa fa-external-link-alt"></i></span></li><li><span class="exturl" data-url="aHR0cHM6Ly9hbGVjdGh3LmdpdGh1Yi5pby9ib29rcy9tYXJrZG93bi1zaW1wbGUtd29ybGQvNC5odG1s">Markdown + Gitbook · GitBook<i class="fa fa-external-link-alt"></i></span></li><li>大家都推薦的<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWU=">NexT<i class="fa fa-external-link-alt"></i></span>佈景主題</li><li><span class="exturl" data-url="aHR0cHM6Ly9zYWdpLXJhc3Rhci5naXRodWIuaW8vMjAyMy8xMS8xMC8lRTUlODUlQjMlRTQlQkElOEUlRTYlODglOTElRTQlQkQlQkYlRTclOTQlQThvYnNpZGlhbiVFNSU4QSVBMGhleG8lRTklODMlQTglRTclQkQlQjIlRTQlQjglQUElRTQlQkElQkElRTUlOEQlOUElRTUlQUUlQTIlRTclOUElODQlRTglQkYlODclRTclQTglOEIv">关于我使用obsidian加hexo部署个人博客的过程 - SagiRastar’s Blog<i class="fa fa-external-link-alt"></i></span></li><li><span class="exturl" data-url="aHR0cHM6Ly9pc3JheW5vdGFycmF5LmNvbS9oZXhvLzIwMTkwNDExLzkzMjgyNjE2MC8=">架設 Hexo+GitHub | 是 Ray 不是 Array<i class="fa fa-external-link-alt"></i></span></li><li>HEXO核心團隊人物的Blog(即便是中文，我還是看不太懂他的文章，太高深了): <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLnNray5tb2Uv">首页 | Sukka’s Blog<i class="fa fa-external-link-alt"></i></span></li><li><span class="exturl" data-url="aHR0cHM6Ly93dy53ZnVibG9nLmNvbS8yMDI0LzA3L2dpdGh1Yi1wYWdlLWhleG8tY2xvdWRmbGFyZS1ibG9nZ2VyLWFsdGVybmF0aXZlLmh0bWwjc2VjdGlvbjM=">為何我選擇 GitHub Page + Hexo + Cloudflare 作為 Blogger 替代品＠WFU BLOG<i class="fa fa-external-link-alt"></i></span></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;HEXO學習日誌&quot;&gt;&lt;a href=&quot;#HEXO學習日誌&quot; class=&quot;headerlink&quot; title=&quot;HEXO學習日誌&quot;&gt;&lt;/a&gt;HEXO學習日誌&lt;/h1&gt;&lt;p&gt;從 GOOGLE BLOGGER 到 WORDPRESS 到…N…到 OBSIDIAN+MI</summary>
+      
+    
+    
+    
+    <category term="hexo教學" scheme="https://777tycoon.github.io/categories/hexo%E6%95%99%E5%AD%B8/"/>
+    
+    
+    <category term="hexo" scheme="https://777tycoon.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
